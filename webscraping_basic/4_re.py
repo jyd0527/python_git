@@ -17,6 +17,7 @@ def print_match(m):
     else:
         print("매칭되지 않음")
         print("매칭되지 않음")
+        print("매칭되지 않음")
 
 # m = p.match("careless ")
 # print_match(m)
