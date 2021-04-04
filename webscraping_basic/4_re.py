@@ -7,8 +7,9 @@ p = re.compile("ca.e") #.: 하나의 문자를 의미
 # ^(^de) : 문자열의 시작
 # $ (se$) :문자열의 끝 > 
 
-def print_match(m):
+
     if m:
+def print_match(m):
         print("m.group():", m.group())
         print("m.string:", m.string)
         print("m.start():", m.start())
